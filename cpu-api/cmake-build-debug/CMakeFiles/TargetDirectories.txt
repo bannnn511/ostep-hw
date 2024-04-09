@@ -1,0 +1,3 @@
+/Users/ban/Documents/Learn/ostep/homework/cpu-api/cmake-build-debug/CMakeFiles/cpu_api.dir
+/Users/ban/Documents/Learn/ostep/homework/cpu-api/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/ban/Documents/Learn/ostep/homework/cpu-api/cmake-build-debug/CMakeFiles/rebuild_cache.dir

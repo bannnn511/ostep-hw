@@ -1,0 +1,6 @@
+# ninja log v5
+1	61	1712391097996767033	CMakeFiles/cpu_api.dir/1.c.o	4139ffbe230c6b8b
+2	61	1712391097996756824	CMakeFiles/cpu_api.dir/2.c.o	fa028bcfa2653800
+6	167	1712402699474203238	CMakeFiles/cpu_api.dir/2.c.o	fa028bcfa2653800
+7	168	1712402699474184738	CMakeFiles/cpu_api.dir/3.c.o	5df4a690267c135e
+7	168	1712402699474193905	CMakeFiles/cpu_api.dir/3-nowait.c.o	e1499ae1a5d34e1b
