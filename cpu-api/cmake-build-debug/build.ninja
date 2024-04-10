@@ -73,6 +73,24 @@ build CMakeFiles/cpu_api.dir/3-nowait.c.o: C_COMPILER__cpu_api_unscanned_Debug /
   OBJECT_DIR = CMakeFiles/cpu_api.dir
   OBJECT_FILE_DIR = CMakeFiles/cpu_api.dir
 
+build CMakeFiles/cpu_api.dir/an/exec.c.o: C_COMPILER__cpu_api_unscanned_Debug /Users/ban/Documents/Learn/ostep/homework/cpu-api/an/exec.c || cmake_object_order_depends_target_cpu_api
+  DEP_FILE = CMakeFiles/cpu_api.dir/an/exec.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/cpu_api.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpu_api.dir/an
+
+build CMakeFiles/cpu_api.dir/an/envargs.c.o: C_COMPILER__cpu_api_unscanned_Debug /Users/ban/Documents/Learn/ostep/homework/cpu-api/an/envargs.c || cmake_object_order_depends_target_cpu_api
+  DEP_FILE = CMakeFiles/cpu_api.dir/an/envargs.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/cpu_api.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpu_api.dir/an
+
+build CMakeFiles/cpu_api.dir/4.c.o: C_COMPILER__cpu_api_unscanned_Debug /Users/ban/Documents/Learn/ostep/homework/cpu-api/4.c || cmake_object_order_depends_target_cpu_api
+  DEP_FILE = CMakeFiles/cpu_api.dir/4.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/cpu_api.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpu_api.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target cpu_api
@@ -81,7 +99,7 @@ build CMakeFiles/cpu_api.dir/3-nowait.c.o: C_COMPILER__cpu_api_unscanned_Debug /
 #############################################
 # Link the executable cpu_api
 
-build cpu_api: C_EXECUTABLE_LINKER__cpu_api_Debug CMakeFiles/cpu_api.dir/1.c.o CMakeFiles/cpu_api.dir/2.c.o CMakeFiles/cpu_api.dir/3.c.o CMakeFiles/cpu_api.dir/3-nowait.c.o
+build cpu_api: C_EXECUTABLE_LINKER__cpu_api_Debug CMakeFiles/cpu_api.dir/1.c.o CMakeFiles/cpu_api.dir/2.c.o CMakeFiles/cpu_api.dir/3.c.o CMakeFiles/cpu_api.dir/3-nowait.c.o CMakeFiles/cpu_api.dir/an/exec.c.o CMakeFiles/cpu_api.dir/an/envargs.c.o CMakeFiles/cpu_api.dir/4.c.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/cpu_api.dir
   POST_BUILD = :
