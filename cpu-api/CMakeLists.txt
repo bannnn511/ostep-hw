@@ -9,4 +9,7 @@ add_executable(cpu_api 1.c
         3-nowait.c
         an/exec.c
         an/envargs.c
-        4.c)
+        4.c
+        5.c
+        util.c
+        6.c)
