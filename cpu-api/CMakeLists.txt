@@ -12,4 +12,7 @@ add_executable(cpu_api 1.c
         4.c
         5.c
         util.c
-        6.c)
+        6.c
+        7.c
+        8.c
+)
